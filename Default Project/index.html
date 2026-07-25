@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виктор Грибанов — Графический дизайнер</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__inner">
+        <a href="#" class="logo">Виктор Грибанов</a>
+        <nav class="nav">
+            <a href="#about" class="nav__link">Обо мне</a>
+            <a href="#services" class="nav__link">Услуги</a>
+            <a href="#portfolio" class="nav__link">Портфолио</a>
+            <a href="#reviews" class="nav__link">Отзывы</a>
+            <a href="#contact" class="nav__link">Контакт</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Меню">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <p class="hero__label">Графический дизайн</p>
+        <h1 class="hero__title">Всё, о чём вы когда-либо мечтали, может быть реализовано именно в тот момент, <span class="highlight">когда вы решили победить.</span></h1>
+        <p class="hero__subtitle">Графический дизайнер из Волгограда. Специализируюсь на брендинге, веб-дизайне и иллюстрациях.</p>
+        <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Связаться со мной</a>
+            <a href="#portfolio" class="btn btn--outline">Посмотреть работы</a>
+        </div>
+        <div class="hero__stats">
+            <div class="stat">
+                <span class="stat__number">2026</span>
+                <span class="stat__label">Год начала работы</span>
+            </div>
+            <div class="stat">
+                <span class="stat__number">1</span>
+                <span class="stat__label">Год опыта</span>
+            </div>
+            <div class="stat">
+                <span class="stat__number">$10</span>
+                <span class="stat__label">В час</span>
+            </div>
+            <div class="stat">
+                <span class="stat__number">100%</span>
+                <span class="stat__label">Довольных клиентов</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section about">
+    <div class="container about__inner">
+        <div class="about__image">
+            <div class="about__image-placeholder">
+                <img src="images/Аватар.png" alt="Виктор Грибанов" class="about__photo">
+            </div>
+        </div>
+        <div class="about__content">
+            <p class="section__label">Обо мне</p>
+            <h2 class="section__title">Виктор Грибанов</h2>
+            <p class="about__text">Я — графический дизайнер. Сейчас живу в Волгограде. За моими плечами 1-летний опыт работы в дизайн-проекте. Я закончил школу дизайна. С 2026 года я работаю самостоятельно.</p>
+            <p class="about__text">Помогаю моим клиентам достигать их амбиций и целей в современном мире через качественный дизайн.</p>
+            <ul class="about__highlights">
+                <li>Брендинг и айдентика</li>
+                <li>Веб-дизайн и UI/UX</li>
+                <li>Иллюстрации</li>
+                <li>Дизайн упаковки</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="section services">
+    <div class="container">
+        <p class="section__label section__label--center">Услуги</p>
+        <h2 class="section__title section__title--center">Чем я могу помочь</h2>
+        <div class="services__grid">
+            <div class="service-card">
+                <div class="service-card__icon">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="8" width="32" height="32" rx="8" stroke="currentColor" stroke-width="2.5"/><circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2.5"/></svg>
+                </div>
+                <h3 class="service-card__title">Брендинг</h3>
+                <p class="service-card__text">Разработка логотипа, фирменного стиля и полной айдентики бренда. Создаю уникальный визуальный образ, который запоминается.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-card__icon">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="36" height="28" rx="4" stroke="currentColor" stroke-width="2.5"/><path d="M6 18h36" stroke="currentColor" stroke-width="2.5"/><circle cx="11" cy="14" r="1.5" fill="currentColor"/><circle cx="16" cy="14" r="1.5" fill="currentColor"/></svg>
+                </div>
+                <h3 class="service-card__title">Веб-дизайн</h3>
+                <p class="service-card__text">Дизайн лендингов, сайтов и онлайн-магазинов. Удобный UI/UX и адаптивная вёрстка под любые устройства.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-card__icon">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 40L20 8l8 20 8-12 4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36" cy="12" r="4" stroke="currentColor" stroke-width="2.5"/></svg>
+                </div>
+                <h3 class="service-card__title">Иллюстрации</h3>
+                <p class="service-card__text">Авторские иллюстрации для статей, рекламных кампаний и социальных сетей. Уникальный стиль и тонкое чувство баланса.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-card__icon">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="6" width="28" height="36" rx="4" stroke="currentColor" stroke-width="2.5"/><path d="M18 38h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M24 34v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+                </div>
+                <h3 class="service-card__title">Дизайн приложений</h3>
+                <p class="service-card__text">Проектирование мобильных приложений и интерфейсов. Дизайн карточек товаров, страниц 404, календарей и маркетплейсов.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="section portfolio">
+    <div class="container">
+        <div class="portfolio__header">
+            <div>
+                <p class="section__label">Портфолио</p>
+                <h2 class="section__title">Мои работы</h2>
+            </div>
+            <a href="https://www.behance.net/9d5f55c5" target="_blank" rel="noopener" class="btn btn--outline behance-btn">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M6.938 4.503c.702 0 1.34.06 1.92.188.577.13 1.07.33 1.485.61.41.28.733.65.96 1.12.225.47.34 1.05.34 1.73 0 .74-.17 1.36-.507 1.86-.338.5-.837.9-1.502 1.22.906.26 1.576.72 2.022 1.37.448.66.665 1.45.665 2.36 0 .75-.13 1.39-.41 1.93-.28.55-.67 1-1.16 1.35-.48.348-1.05.6-1.67.767-.62.16-1.26.25-1.92.25H0V4.51h6.938v-.007zM6.545 10.16c.6 0 1.096-.16 1.486-.48.39-.32.58-.79.58-1.42 0-.36-.06-.65-.19-.87a1.57 1.57 0 00-.53-.55 2.07 2.07 0 00-.77-.28 3.9 3.9 0 00-.94-.1H3.22v3.7h3.325zm.19 5.51c.36 0 .71-.04 1.05-.12.34-.08.63-.22.88-.4.25-.18.44-.42.59-.72.15-.3.22-.68.22-1.15 0-.9-.26-1.56-.79-1.97-.52-.41-1.21-.62-2.07-.62H3.22v4.98h3.515zM15.07 4.373h5.71v1.34h-5.71V4.373zM21.593 12.07c-.18-.56-.47-1.04-.86-1.43-.39-.4-.87-.7-1.43-.92-.56-.22-1.18-.33-1.87-.33-.68 0-1.3.12-1.87.35-.56.23-1.04.55-1.43.95-.39.4-.68.88-.87 1.44-.19.56-.28 1.17-.28 1.83 0 .66.1 1.27.29 1.83.19.56.48 1.04.87 1.44.39.4.87.72 1.43.95.57.23 1.19.35 1.87.35.84 0 1.56-.2 2.17-.59.61-.4 1.08-.93 1.39-1.59h-2.76c-.13.27-.36.49-.67.66-.31.17-.66.26-1.06.26-.63 0-1.13-.21-1.49-.64-.37-.43-.56-1.11-.57-2.04h7.62c.02-.34.03-.65.03-.93 0-.63-.1-1.24-.29-1.79l-.02.02zm-7.46 1.6c.04-.44.14-.82.3-1.14.16-.32.38-.57.65-.76.28-.19.62-.28 1.03-.28.39 0 .73.1 1.02.29.29.2.51.46.67.77.16.32.25.68.28 1.12h-3.95z"/></svg>
+                Behance
+            </a>
+        </div>
+        <div class="portfolio__scroll">
+            <div class="portfolio-card">
+                <div class="portfolio-card__image">
+                    <img src="images/Лендинг.png" alt="Лендинг" class="portfolio-card__img">
+                    <span class="portfolio-card__tag">Лендинг</span>
+                </div>
+                <div class="portfolio-card__content">
+                    <h3 class="portfolio-card__title">Инновационные продукты</h3>
+                    <p class="portfolio-card__text">Одностраничный сайт для продвижения инновационного продукта</p>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-card__image">
+                    <img src="images/Онлайн магазин.png" alt="Онлайн магазин" class="portfolio-card__img">
+                    <span class="portfolio-card__tag">Онлайн-магазин</span>
+                </div>
+                <div class="portfolio-card__content">
+                    <h3 class="portfolio-card__title">Мода и стиль</h3>
+                    <p class="portfolio-card__text">Дизайн онлайн-магазина модной женской одежды</p>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-card__image">
+                    <img src="images/Ювелирка.png" alt="Ювелирный магазин" class="portfolio-card__img">
+                    <span class="portfolio-card__tag">Ювелирный</span>
+                </div>
+                <div class="portfolio-card__content">
+                    <h3 class="portfolio-card__title">Магазин украшений</h3>
+                    <p class="portfolio-card__text">Дизайн онлайн-магазина ювелирных украшений</p>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-card__image">
+                    <img src="images/Мобильное приложение.png" alt="Мобильное приложение" class="portfolio-card__img">
+                    <span class="portfolio-card__tag">Мобильное приложение</span>
+                </div>
+                <div class="portfolio-card__content">
+                    <h3 class="portfolio-card__title">Личный календарь</h3>
+                    <p class="portfolio-card__text">Дизайн мобильного приложения — личный календарь</p>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-card__image">
+                    <img src="images/Маркетплейсы.png" alt="Маркетплейсы" class="portfolio-card__img">
+                    <span class="portfolio-card__tag">UI/UX</span>
+                </div>
+                <div class="portfolio-card__content">
+                    <h3 class="portfolio-card__title">Маркетплейсы</h3>
+                    <p class="portfolio-card__text">Дизайн карточек товаров и страниц для маркетплейсов</p>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-card__image">
+                    <img src="images/Посты.png" alt="Посты" class="portfolio-card__img">
+                    <span class="portfolio-card__tag">Посты</span>
+                </div>
+                <div class="portfolio-card__content">
+                    <h3 class="portfolio-card__title">Социальные сети</h3>
+                    <p class="portfolio-card__text">Оформление постов и презентаций для Instagram</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="reviews" class="section testimonials">
+    <div class="container">
+        <p class="section__label section__label--center">Отзывы</p>
+        <h2 class="section__title section__title--center">Что говорят клиенты</h2>
+        <div class="testimonials__grid">
+            <div class="testimonial-card">
+                <p class="testimonial-card__text">«У нас стояла задача ребрендинга кафе и обновления дизайна всех видов упаковки. Мы рады, что нашли Виктора, он настоящий профессионал. Он предложил много интересных вариантов и решений. Сложность в том, что необходимо было работать с большим количеством людей и вносить много правок, это была большая работа, и Виктор с ней отлично справился!»</p>
+                <div class="testimonial-card__author">
+                    <div class="testimonial-card__avatar">КИ</div>
+                    <div>
+                        <strong class="testimonial-card__name">Константин Иванов</strong>
+                        <span class="testimonial-card__role">Креативный директор, DD Cafe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-card__text">«Мы молодой стартап. Нам нужен был дизайнер, который помог бы нам во всех аспектах айдентики нашего бренда. Виктор сделал для нас брендинг и сайт. Он хорошо поработал над адаптацией, UI и UX. Очень удобно, когда у дизайнера есть опыт в программировании, он лучше чувствует веб.»</p>
+                <div class="testimonial-card__author">
+                    <div class="testimonial-card__avatar">ВС</div>
+                    <div>
+                        <strong class="testimonial-card__name">Виктория Самойлова</strong>
+                        <span class="testimonial-card__role">Projects Manager, Pixels</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-card__text">«Виктор сделал серию иллюстраций для нашей новой статьи о проблемах в семье и их решениях. Иллюстрации содержат не только смысловую нагрузку, которую мы и искали, они уникальны и выполнены с тонким чувством стиля и баланса. Мы с нетерпением ждем новых совместных проектов!»</p>
+                <div class="testimonial-card__author">
+                    <div class="testimonial-card__avatar">КБ</div>
+                    <div>
+                        <strong class="testimonial-card__name">Кристофер Блэк</strong>
+                        <span class="testimonial-card__role">Арт-директор, Feelings Magazine</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section conditions">
+    <div class="container">
+        <p class="section__label section__label--center">Условия</p>
+        <h2 class="section__title section__title--center">Как я работаю</h2>
+        <div class="conditions__grid">
+            <div class="condition-card">
+                <span class="condition-card__number">01</span>
+                <h3 class="condition-card__title">Контракт</h3>
+                <p class="condition-card__text">Перед началом работы я подписываю с клиентом индивидуальный контракт, в котором прописаны все детали проекта.</p>
+            </div>
+            <div class="condition-card">
+                <span class="condition-card__number">02</span>
+                <h3 class="condition-card__title">Предоплата 50%</h3>
+                <p class="condition-card__text">Беру предоплату в размере 50% от общей суммы проекта. Это стандартная практика для комфортной работы обеих сторон.</p>
+            </div>
+            <div class="condition-card">
+                <span class="condition-card__number">03</span>
+                <h3 class="condition-card__title">$10 в час</h3>
+                <p class="condition-card__text">Стоимость моей работы в среднем составляет $10 за час. Для расчёта стоимости вашего проекта напишите мне на почту.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section contact">
+    <div class="container contact__inner">
+        <div class="contact__info">
+            <p class="section__label">Контакт</p>
+            <h2 class="section__title">Давайте обсудим ваш проект</h2>
+            <p class="contact__text">Мы стараемся быть друзьями с нашими клиентами, поэтому с радостью ответим на ваши вопросы.</p>
+            <div class="contact__details">
+                <div class="contact__detail">
+                    <span class="contact__detail-label">Email</span>
+                    <a href="mailto:gribanoviktor@gmail.com" class="contact__detail-value">gribanoviktor@gmail.com</a>
+                </div>
+                <div class="contact__detail">
+                    <span class="contact__detail-label">Телефон</span>
+                    <a href="tel:+79608867342" class="contact__detail-value">+7 (960) 886-73-42</a>
+                </div>
+                <div class="contact__detail">
+                    <span class="contact__detail-label">Локация</span>
+                    <span class="contact__detail-value">Волгоград, Россия</span>
+                </div>
+            </div>
+        </div>
+        <form class="contact__form" id="contactForm">
+            <div class="form-group">
+                <label for="name" class="form-label">Имя</label>
+                <input type="text" id="name" class="form-input" placeholder="Ваше имя" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" placeholder="your@email.com" required>
+            </div>
+            <div class="form-group">
+                <label for="message" class="form-label">Сообщение</label>
+                <textarea id="message" class="form-input form-textarea" placeholder="Опишите вашу задачу..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Отправить сообщение</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer__inner">
+        <p class="footer__text">&copy; 2026 Виктор Грибанов. Все права защищены.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
